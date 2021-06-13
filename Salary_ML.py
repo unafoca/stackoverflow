@@ -106,6 +106,9 @@ def find_optimal_lm_mod(X, y, cutoffs, test_size = .30, random_state=42, plot=Tr
     return r2_scores_test, r2_scores_train, lm_model, X_train, X_test, y_train, y_test
 
 def main():
+    '''
+    I have made some change for github practive!!!!
+    '''
     df = pd.read_csv('../Part1/stackoverflow/survey_results_public.csv')
     X, y = clean_data(df)
     #cutoffs here pertains to the number of missing values allowed in the used columns.
